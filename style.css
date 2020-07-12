@@ -1,6 +1,71 @@
 body{
+    margin: 0;
     font-family: 'Rubik', sans-serif;
 }
 h1{
     color: red;
+    font-size: 50px;
+}
+p{
+    color: gray;
+}
+.half-width{
+    margin-left: 5%;
+    padding-left: 2%;
+    width: 40%;
+    float: left;
+}
+.half-width img{
+    width: 80%;
+}
+.btn-link{
+    text-decoration: none;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 550px;
+    padding-bottom: 100;
+    overflow: hidden;
+   
+}
+.midth-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+h3{
+    text-align: center;
+}
+
+.latest-bg{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    width: 90%;
+    margin: 30px 30px;
+}
+.latest-area img{
+    width: 30%;
+    float: left;
+    margin: 10px 15px;
+    padding: 5px;
+}
+.foorer-bg{
+    background-image: url("images/footer-bg.png");
+    text-align: center;
+
+}
+.client-area{
+    background-color: lightcoral;
+    
+}
+footer{
+    text-align: center;
 }
